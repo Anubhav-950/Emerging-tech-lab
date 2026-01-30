@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  color: #14bef0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.login-btn {
+  border: 1px solid #14bef0;
+  background: white;
+  color: #14bef0;
+  padding: 6px 12px;
+}
+
+/* Search */
+.search-container {
+  display: flex;
+  gap: 10px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 250px;
+}
+
+/* Services */
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 30px;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Consult */
+.consult {
+  padding: 30px;
+}
+
+.consult-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px;
+}
+
+.consult-card {
+  background: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Clinic */
+.clinic {
+  padding: 30px;
+}
+
+.clinic-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.clinic-card {
+  background: white;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #28328c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
